@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag lesson</title>
+   
+    <style> 
+
+    #sifre{
+        color: rgb(0, 247, 255);
+        border: 1px solid blue;
+        width: 300px; 
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+   <form action="index2.html">
+
+    <input type="text" name="Kullanıcı Adı" id="Kullanıcı Adı" placeholder="Kullanıcı Adı">
+    <br><br>
+    <input type="password" name="sifre" id="sifre" placeholder="Şifre">
+    <br><br>
+    <input type="radio" name="Gender" value="Erkek"> Erkek
+    <input type="radio" name="Gender" value="Kadın"> Kadın
+    <br><br>
+    <select name="İkametgah" id="İkametgah">
+        <option value="Kocaeli">Kocaeli</option>
+        <option value="Konya">Konya</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Gönder">
+
+   </form>
+        
+</body>
+</html>
+
+<!-- Eğer <input type="text" name="" id="" value="Playstation 5"> yazarsan çubuğa otomatik yazılmış olur. -->
+<!--  <form method="get"> ile bilgiler URL'ye aktarılırarak bilgiler elde edilir.>-->
+    <!-- <form method="post"> ile bilgiler URL'ye aktarılmadan bilgiler elde edilir.-->
+        <!-- Eğer 8 kere br yazacaksan br*8 yazarsan otomatik 8 tane yazar.-->
